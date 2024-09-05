@@ -1,0 +1,22 @@
+.container-main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content-main {
+    width: 100%;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.red {
+    background-color: #93862C;
+}
+.blue {
+    width: 100%;
+    height: 100%;
+    background-color: #0500C1;
+}

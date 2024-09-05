@@ -1,0 +1,69 @@
+.section-6 {
+    position: relative;
+    width: 100%;
+    padding: 0 1rem;
+    background-color: #FF8149;
+    bottom: 1px;
+}
+
+.show-presentation-images-6 {
+    width: 100%;
+    height: 100%;
+}
+
+.content-text-fixed-6 {
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    font-family: "45ab4dc4133b69bf-s";
+    color: #96FF00;
+}
+
+.content-text-fixed-6 h1 {
+    font-size: 9vw;
+    font-weight: 900;
+    letter-spacing: -5px;
+    color: #025431;
+}
+
+.text-fixed-6 {
+    padding: 3vw 0;
+}
+
+.content-text-fixed-6 h2 {
+    font-size: 2.3vw;
+    font-weight: 500;
+}
+
+.show-presentation-images-6 {
+    position: relative;
+}
+
+.content-images {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+
+.imagem-matcha-bottle {
+    width: 45vw;
+    height: 45vw;
+    background-image: url("./matcha-bottle.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+
+.imagem-organic-miso-yellow01 {
+    width: 38vw;
+    height: 45vw;
+    background-image: url("./organic-miso-yellow01.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
