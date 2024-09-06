@@ -1,6 +1,7 @@
 import Header from "../components/header/Header"
 import Main from "../components/main/Main"
 import ScrollToTop from "./ScrollTop";
+import Footer from "../components/footer/Footer";
 
 import gsap from "gsap";
 import ScrollSmoother from "gsap-trial/ScrollSmoother";
@@ -26,12 +27,10 @@ function App() {
       smoother.scrollTo(0, 0);
     }, 100);
 
-
     return () => {
       smoother.kill()
     }
   }, [])
-
 
   return (
     <Router>
@@ -40,6 +39,7 @@ function App() {
           <ScrollToTop />
           <Header />
           <Main />
+          <Footer/>
         </div>
       </div>
     </Router>

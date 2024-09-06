@@ -13,10 +13,13 @@
 
 .content-text-fixed-6 {
     width: 100%;
+    height: 20vw;
     z-index: 999;
     text-align: center;
     font-family: "45ab4dc4133b69bf-s";
     color: #96FF00;
+    position: absolute;
+    left: 0;
 }
 
 .content-text-fixed-6 h1 {
@@ -37,9 +40,11 @@
 
 .show-presentation-images-6 {
     position: relative;
+    padding-top: 22vw;
+    padding-bottom: 22vw;
 }
 
-.content-images {
+.content-images-6 {
     position: relative;
     display: flex;
     justify-content: space-between;

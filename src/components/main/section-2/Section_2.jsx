@@ -1,6 +1,27 @@
 import "./section-2.css"
+import gsap from "gsap";
+import ScrollTrigger from "gsap-trial/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(ScrollTrigger)
 
 function Section_2(params) {
+
+    useGSAP(() => {
+        let contexto = gsap.context(() => {
+            ScrollTrigger.create({
+                trigger: ".section-2",
+                // markers: true,
+                start: "top 20%",
+                end: "bottom 60%",
+                pin: ".text-fixed",
+            })
+        })
+        return () => {
+            contexto.kill()
+        }
+    }, [])
+
     return (
         <section className="section-2">
 
